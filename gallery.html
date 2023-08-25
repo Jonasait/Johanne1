@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+      <head>
+           <title>Gallery</title>
+	   <link rel="stylesheet" href="styles.css">
+
+ <style>
+         
+.fixed {position: fixed;
+               width:80%;
+               bottom: 0; }
+            
+             * {transition: 0.5s;
+                box-sizing: border-box;}
+
+  
+
+
+             #gallery {background-color: rgba(255,255,255,0.8);
+                      padding: 20px;
+                      width: 80%;
+                      margin: 20px auto;
+                      text-align: center}
+
+
+         #gallery {width:90%; }
+
+         #gallery img {width: 49%}
+
+
+/*///////////////////*/
+@media (max-width: 1100px) {
+        #gallery {background-color: #C4C4FA;}
+}
+
+/*///////////////////*/
+@media (max-width: 800px) {
+        #gallery {background-color: #A3F8EA;}
+         #gallery {width:100%;}
+          #gallery img {width: 100%;}}
+
+
+
+#flex{display: flex;
+       flex-direction: row;
+
+        /*horizontal*/
+        justify-content: center;
+         /*vertical*/
+         align-items: center;}
+
+#flex img {width: 200px; }
+
+.size{width: 30px; }
+
+.heading2 {color: white;}
+
+ </style>
+
+
+
+
+
+
+      </head>
+		
+	     <body>
+	            <h1> Gallery </h1>
+              
+                    <h2 class="heading2"> World leading Althetes </h2>
+
+
+
+                               <div id="gallery">
+                                  <p class="names">Yuzuru Hanyu, Japan</p> 
+
+                   
+                                  <img src="image/yuzuru3.jpeg" alt="yuzuru">       
+                                 <img class="size" src="image/yuzuru4.jpeg" alt="yuzuru" >   
+
+                             <p class="names">Anna Stanislavovna Shcherbakova, Russia</p> 
+ 
+                                  <img src="image/anna.jpeg" alt="anna">    
+                                  <img src="image/anna2.jpeg" alt="anna">  
+
+
+                           <p class="names">Jun-hwan Cha, Korea</p> 
+                                 <img src="image/cha1.jpeg" alt="cha junhwan">    
+                                  <img class="size" src="image/cha2.jpeg" alt="cha junhwan">  
+                        
+
+
+                                 </div>
+
+
+<div class="fixed"><nav> <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="toe.html">Toe Jumps</a></li> 
+                        <li><a href="edge.html">Edge Jumps</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+</ul>
+                </nav>
+</div>
+
+                               <div id="flex">
+                   
+                                  <img src="image/yuzuru3.jpeg" alt="yuzuru">        
+                                   <img src="image/yuzuru4.jpeg" alt="yuzuru">    
+                                  <img src="image/anna.jpeg" alt="anna">    
+                                  <img src="image/anna2.jpeg" alt="anna"> 
+                                  <img src="image/cha1.jpeg" alt="cha junhwan">    
+                                  <img class="size" src="image/cha2.jpeg" alt="cha junhwan">  
+ 
+                                 </div>
+
+
+
+
+<!--<p>responsive page  页面内容，随页面放大缩小.  justify-content: space-around</p>--!>
+  
+	      </body>
+
+
+
+
+</html>
