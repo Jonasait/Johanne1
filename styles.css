@@ -1,0 +1,84 @@
+
+@font-face {font-family: mainfont;
+             src: url("font/TT Trailers Trial Regular.ttf");
+    }
+@font-face {font-family: heading;
+             src: url("font/Cartoon Queen.ttf");
+    }
+
+
+body {background: linear-gradient(#2877DC 30%, #5BC7CC 50%, #D1FDFF);
+      background-attachment: fixed;
+      height: 100%;
+       width: 80%;
+        margin: auto; }
+
+nav{ /*border: 2px solid red*/;
+     text-align: center;
+     font-family: "rockwell"; 
+     font-size: 25px;
+     font-weight:normal;
+      letter-spacing: 2px; }
+
+
+ul{ list-style-type: none;  
+      }
+
+li{ display: inline-block; 
+    /*border: 2px solid red*/;
+    min-width: 20%;
+    max-width:600px;
+    padding: 5px;
+    border-radius: 15px; 
+    background-color: #5BC7CC; }
+
+li:hover{color: white;
+	background-color:#D1FDFF;
+	box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.4);}
+
+#link a: hover{color: white;
+	background-color:#2877DC;
+	box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.4);}
+
+#content {
+	background-color: rgba(255,255,255,0.8);
+	padding:2rem 2rem 4rem 2rem;
+	margin-top: 2rem;
+}
+
+
+h1   {color: #ffffff;
+    
+     text-align: center;
+     padding:5rem 5rem 2rem 5rem;
+      font-family: heading;
+     font-size: 52pt;
+     font-style: bold;
+     letter-spacing: 0px;
+     font-weight: 90;}           
+              
+h2 {color: #2877DC;
+    font-family:"century gothic";
+    font-size: 24pt;
+    text-align:center;}   
+
+
+p {color: hsl(200,60%,20%);
+   line-height: 26px;
+   font-size: 14pt;
+	margin-top: 60px;
+}
+
+.textwrap{ float: left;
+margin: 5px 25px 0px 25px;}
+
+.floatright{float: right;
+margin: 25px;}
+
+
+img { border-radius: 25px;}
+
+
+.names {text-align: left;
+       color:#2877DC;
+       font-size: 18pt;}
